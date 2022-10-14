@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x=prompt("enterr the value")	
+
+function one(){
+	if(x>10){
+		console.log("greater than ten")
+	}else{
+		console.log("not greater than ten")
+	}
+}
+
+function two(){
+	if(x<10){
+		console.log("lesser than ten")
+	}else{
+		console.log("not lesser than ten")
+	}
+}
+
+function three(){
+	if(x==10){
+		console.log("equal to ten")
+	}else{
+		console.log("not equal to ten")
+	}
+}
+	
+async function start(){
+	const a=await one();
+	console.log(a);
+	const c=await three();
+	console.log(c);
+	const b=await two();
+	console.log(b);
+};start();
+    </script>
+</body>
+</html>
